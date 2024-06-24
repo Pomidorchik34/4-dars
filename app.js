@@ -30,19 +30,72 @@ let res;
 // }
 
 // 2
-const products = [
-  { name: "PC", price: 1000, mavjud: true },
-  { name: "Phone", price: 700, mavjud: false },
-  { name: "Plansheet", price: 500, mavjud: false },
-  { name: "laptop", price: 800, mavjud: true },
-];
-let product = "PC";
-product.forEach((value) => {
-  if (value.name == product) {
-    if (value.mavjud == true) {
-      console.log(value.price);
-    } else {
-      console.log(false);
-    }
-  }
-});
+// const products = [
+//   { name: "PC", price: 1000, mavjud: true },
+//   { name: "Phone", price: 700, mavjud: false },
+//   { name: "Plansheet", price: 500, mavjud: false },
+//   { name: "laptop", price: 800, mavjud: true },
+// ];
+// let product = "PC";
+// product.forEach((value) => {
+//   if (value.name == product) {
+//     if (value.mavjud == true) {
+//       console.log(value.price);
+//     } else {
+//       console.log(false);
+//     }
+//   }
+// });
+
+// 3
+// let matem = 0;
+// let fizik = 0;
+// let info = 0;
+// const students = [
+//   { ism: "Ali", yosh: 20, fanlari: ["Matematika", "Fizika"] },
+//   { ism: "Vali", yosh: 21, fanlari: ["Matematika", "Informatika"] },
+//   { ism: "Sami", yosh: 22, fanlari: ["Fizika", "Rus tili"] },
+// ];
+// students.forEach((value) => {
+//   if (value.fanlari.includes("Matematika")) {
+//     matem++;
+//   }
+//   if (value.fanlari.includes("Fizika")) {
+//     fizik++;
+//   }
+//   if (value.fanlari.includes("Informatika")) {
+//     info++;
+//   }
+// });
+// console.log("informatika", info, "matematika", matem, "fizika", fizik);
+
+// 4
+// const workers = [
+//   { ism: "Ali", lavozim: "Dasturchi", maosh: 2000 },
+//   { ism: "Vali", lavozim: "Dizayner", maosh: 1800 },
+//   { ism: "Sami", lavozim: "Dasturchi", maosh: 2200 },
+//   { ism: "Qodir", lavozim: "Loyiha boshqaruvchisi", maosh: 2500 },
+// ];
+// let richWorkers = [];
+// workers.forEach((value) => {
+//   if (value.maosh > 2000) {
+//     richWorkers.push(value);
+//   }
+// });
+// console.log(richWorkers);
+
+// 5
+// const products = [
+//   { nom: "Kompyuter", kategoriya: "Elektronika", narx: 1000 },
+//   { nom: "Telefon", kategoriya: "Elektronika", narx: 700 },
+//   { nom: "Stol", kategoriya: "Mebel", narx: 200 },
+//   { nom: "Stul", kategoriya: "Mebel", narx: 600 },
+//   { nom: "Lampochka", kategoriya: "Elektronika", narx: 10 },
+// ];
+// let narxlar = [];
+// products.forEach((value) => {
+//   narxlar.push(value.narx);
+// });
+// narxlar = narxlar.sort((a, b) => a - b);
+// let center = narxlar.length / 2;
+// console.log(narxlar[Math.trunc(center)]);
